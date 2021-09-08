@@ -1,0 +1,13 @@
+===============================================================================
+                                                                *pomodoro.nvim*
+
+pomodoro.nvim is a plugin for demo purpose. Development is in progress.
+
+To find out more:
+https://github.com/kedde/pomodoro.nvim
+
+  :h pomodoro
+
+pomodoro                                                *Pomodoro*
+    Just say "Hello world!!"
+================================================================================
