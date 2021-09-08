@@ -12,7 +12,7 @@ A plugin written in lua, this is my first attempt to create a nvim-plugin.
 
 ``` lua
 -- packer
-use "kedde\pomodoro.nvim"
+use "kedde/pomodoro.nvim"
 
 ```
 
