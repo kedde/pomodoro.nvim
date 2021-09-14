@@ -1,6 +1,6 @@
 local timer = require("pomodoro.timer")
 local config = require("pomodoro.config")
-local timeConverter = require("time-converter")
+local timeConverter = require("pomodoro.time-converter")
 PomodoroStates = require("pomodoro.pomodoro-states") -- needs to be global because of callback
 
 local M = {}
