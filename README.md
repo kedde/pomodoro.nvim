@@ -58,18 +58,18 @@ use '~/code/pomodoro.nvim'
 
 ## ROADMAP
 
-* [x] callback
+* [x] callback - can be used with lua line or notifier
 * [x] posible to change the length of breaks and pomodoros configurable 
 * [x] define callback frequency - possible to update lualine etc
 * [x] lua line - example
+* [x] Get times in mm:ss?
+* [x] lua test - started
+* [ ] log - instead of print
 * [ ] change the timer code - thinking of the -1 hack - can I just using something like  
       [vim.defer_fn](https://github.com/neovim/neovim/blob/master/src/nvim/lua/vim.lua#L396)
 * [ ] update usage description
-* [ ] Get times in mm:ss?
-* [ ] log - instead of print
-* [ ] lua test
 * [ ] check - lua style
-* [ ] Persist state between neovim instances - this will require we save date and time? 
+* [ ] Persist state between neovim instances - this will require we save date and time? sql-lite database - tami0 made a lua implemation?
 
 would this be enough:
 
