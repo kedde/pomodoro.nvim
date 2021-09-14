@@ -1,5 +1,6 @@
 local timer = require("pomodoro.timer")
 local config = require("pomodoro.config")
+local timeConverter = require("time-converter")
 PomodoroStates = require("pomodoro.pomodoro-states") -- needs to be global because of callback
 
 local M = {}
@@ -95,6 +96,7 @@ function M.status()
     return {
         status = pomodoroStatus,
         timeLeftInSeconds = currentTimeLeftInSec,
+        formattedTime = timeConverter.ConvertSecondsToMinutesAndSeconds(currentTimeLeftInSec),
         numberOfPomodoros = numberOfPomodoros
     }
 end
